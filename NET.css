@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+ 
+
+/* this is the first page of the website  */
+
+}
+.main{
+  /* simple background  */
+  /* background-image: url(NetflixBG.jpg); */
+
+  /* this background is darkish with fifty percent of opacity  */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(NetflixBG.jpg); */
+ 
+  background-image: url(NetflixBG.jpg), 
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-blend-mode: overlay;
+
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+ 
+}
+
+nav{
+  max-width: 90vw;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 62px;
+}
+nav span{
+  margin-left: 200px;
+  color: red;
+  font-size: 50px;
+  font-weight: 900;
+  width: 114px;
+  position: relative;
+  z-index: 10;
+  text-shadow: black 2px 2px;
+}
+button{
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  z-index: 10;
+}
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+   flex-direction: column;
+   color: white;
+   margin-top: 250px;
+   text-shadow: black 2px 2px;
+}
+
+
+.hero> :nth-child(1) {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  font-size: 3.2em;
+  text-align: center;
+}
+
+.hero> :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hero> :nth-child(3) {
+  font-weight: 400;
+  /* font-size: 20px; */
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+.hero span{
+  margin-top: 25px;
+}
+span input{
+  width: 400px;
+  padding: 25px;
+  background-color: rgb(223, 222, 222);
+}
+span button{
+  width: 200px;
+  padding: 19px;
+  height: 65px;
+  
+}
+
+/* the css of the second page of the website  */
+.Tv{
+  background-color: black;
+display: flex;
+
+  
+  
+}
+.tv1{
+ 
+  margin-left: 200px;
+ width: 400px;
+  height: 50vh;
+  color: white;
+  background-color: black;
+  display: flex;
+  /* text-align: center; */
+  flex-direction: column;
+}
+.tv1> :nth-child(1){
+  margin-top: 100px;
+       font-size: 4em;
+       font-weight: 700;
+}
+.tv1> :nth-child(2){
+  margin-top: 35px;
+  font-size: 1.6em;
+  font-weight: 600;
+
+}
+.tv-video{
+  position: relative;
+ 
+}
+.tv-video img{
+/* position: fixed; */
+position: relative;
+z-index: 10;
+}
+.tv-video video{
+position: absolute;
+
+
+top:60px;
+right: 40px;
+
+}
+
+/* the css for the section 2 is here  */
+.section2{
+  height: 70vh;
+  background-color: black;
+  color: white;
+  display: flex;
+
+}
+.tab-text{
+  width: 510px;
+}
+
+.tab-text > :nth-child(1){
+ 
+       font-size: 4em;
+       font-weight: 600;
+       
+       
+      }
+      .tab-text > :nth-child(2){
+  font-size: 1.3em;
+  font-weight: 700;
+margin-top: 30px;
+
+}
+
+.tab-text{
+  margin-top: 70px;
+  margin-left: 30px;
+  width: 510px;
+  
+   color: white;
+   background-color: black;
+   display: flex;
+   /* text-align: center; */
+   flex-direction: column;
+}
+.tab{
+  margin-left: 100px;
+}
+
+/* the css for the section3 is right here  */
+.section3{
+  display: flex;
+  background-color: black;
+}
+.video3{
+  margin-top: 90px;
+  margin-left: 170px;
+  margin-right: 80px;
+}
+.text3{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  height: 50vh;
+  width: 510px;
+  margin-left: 290px;
+
+
+}
+.text3 > :nth-child(1){
+  
+  font-size: 4em;
+  font-weight: 700;
+  margin-top: 90px;
+}
+.text3 > :nth-child(2){
+  font-size: 1.2em;
+  font-weight: 700;
+margin-top: 20px;
+
+}
+
+/* the css for the section4 is here  */
+.section4{
+  background-color: black;
+  color: white;
+  display: flex;
+  
+
+}
+  .kid{
+    margin-left: 200px;
+  }
+.kid-text{
+  display: flex;
+  flex-direction: column;
+  width: 510px;
+  margin-right: 50px;
+}
+.kid-text > :nth-child(1){
+  font-size: 4em;
+  font-weight: 700;
+  margin-top: 100px;
+  
+}
+.kid-text > :nth-child(2){
+  font-size: 1.4em;
+  font-weight: 700;
+margin-top: 30px;
+}
+
+/* the seven div section's css is here  */
+
+.seven-div{
+  background-color: black;
+ padding-top: 70px;
+ 
+  /* new lines adding here  */
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+  width: 100vw; 
+  flex-direction: column; 
+  color: white;
+  
+}
+
+.seven-div div{
+  width: 70vw;
+  height: 100px;
+  margin-top: 10px;
+  font-size: 1.5em;
+ /* if you want to keep the text at some distance from the left then you will choose padding-left not the margin left   */
+  padding-left: 40px;
+/* margin-left:  0px; */
+/* in this way you can keep the text in vertical center without horixontal center  */
+display: flex;
+align-items: center;
+  background-color: rgb(58, 57, 57);
+
+}
+.seven-div > :nth-child(1){
+background-color: black;
+display: flex;
+justify-content: center;
+
+color: white;
+font-size: 3em;
+
+
+}
+.membership{
+ 
+ background-color: black;
+ color: white;
+}
+.membership p{
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  /* margin: 30px; */
+}
+.members {
+  display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            padding-bottom: 70px;
+}
+.members span{
+  margin-left: 25px;
+  margin-right: 90px;
+}
+.members input {
+  background-color: rgba(101, 101, 153, 0.5);;
+  
+}
+.hero span input{
+  /* background-color: transparent ; */
+  background-color: rgba(101, 101, 153, 0.5);
+}
+
+
+
+/* the css for the footer page is here  */
+footer{
+  font-size: 1.3em;
+
+  display: flex;
+  background-color: black;
+  color: white;
+  padding-top: 70px;
+  
+}
+footer div{
+  margin-left: 200px;
+  
+}
+footer div ul li{
+  list-style: none;
+  margin-top: 30px;
+}
+a{
+  /* text-decoration: none; */
+  color: white;
+}
+
+.last{
+  background-color: black;
+  color: white;
+padding-left: 200px;
+padding-top: 40px;
+padding-bottom: 75px;
+}
+.last div select{
+  width: 140px;
+  height: 40px;
+  font-size: 1em;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+.last p{
+
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+/* change of color and background color of the input placeholder  */
+input::placeholder {
+  color: white; /* Change to your desired color */
+  opacity: 1; /* For better visibility */
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* this is the css of the seleccted items as will change the color to red  */
+::selection{
+  background-color: red;
+}
+
+input {
+  font-size: 1.2em; 
+  color: white;
+  border: solid 2px rgb(26, 25, 25);
+  /* Input text font size */
+}
+
+
+@keyframes appear {
+  from{
+      opacity: 0;
+      scale: 0.5;
+  }
+  to{
+      opacity: 1;
+      scale: 1;
+  }
+ }
+ .scroll{
+  animation: appear linear;
+  animation-timeline: view();       /* till these two we can see that animation is happening but it is completely when the elements go out of the screen  */
+  /* animation-range: entry 30%;  it will delay the animation and make it look bad */
+  /* animation-range: entry 70%; it means that the animation will not happen until the 70% of the element is visible on screen  */
+/* so calling off the above two properties we add the cover properties  */
+animation-range: entry 0 cover 50%; /* the animation is executed by the time the elements are covered 40% on the view port   */
+
+ }
+
+/* the media query for the responsiveness of the websites  */
+
+
